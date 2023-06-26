@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th:nth-child(1){
+        border-right: 2px solid #444444;
+        }
+        thead {
+            border-bottom: 2px solid #444444;
+        }
+        tfoot {
+            border: 0px;
+        }
+        caption {
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="border-collapse: collapse;">
+        <caption>나는 이런 책이 사고 싶다</caption>
+        <colgroup>
+            <col style="background-color: lightgray;">
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr style="background-color: lightgray;">
+                <th>구분</th>
+                <th>2016년</th>
+                <th>2022년</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>철학</th>
+                <td>50.0%</td>
+                <td>54.9%</td>
+            </tr>
+            <tr>
+                <th>소설</th>
+                <td>40.7%</td>
+                <td>53.4%</td>
+            </tr>
+            <tr>
+                <th>자기계발</th>
+                <td>51.0%</td>
+                <td>51.6%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

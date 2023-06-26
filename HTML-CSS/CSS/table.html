@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>강의 후 활동</caption>
+        <!-- table>(thead>th*3)+tbody>td*3 -->
+        <thead>
+            <!-- table head -->
+            <th>요일</th>
+            <th>저녁 식사</th>
+            <th>TIL 쓰기</th>
+            <th>노래 듣기</th>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- table division -->
+                <td>월요일</td>
+                <td colspan="2">30명</td>
+                <td>20명</td>
+                <td>10명</td>
+            </tr>
+            <tr>
+                <td>화요일</td>
+                <td rowspan="2">30명</td>
+                <td>20명</td>
+                <td>10명</td>
+            </tr>
+        </tbody>
+        <!-- 표 가장 마지막 행, 주로 합계를 표시하는데 이를 강조(스타일 적용)하기 위함 -->
+        <tfoot>
+            <tr>
+                <td>합계</td>
+                <td>60명</td>
+                <td>40명</td>
+                <td>20명</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

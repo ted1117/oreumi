@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(240, 217, 189);
+}
+
+section {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(250, 250, 230);
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    background-color: cyan;
+}
+
+.big-article {
+    width: 60%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.small-article {
+    width: 100%;
+    background-color: rgb(156, 255, 194);
+    height: -webkit-fill-available;
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: teal;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+}

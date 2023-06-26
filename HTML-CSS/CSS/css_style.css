@@ -1,0 +1,22 @@
+/*  스타일시트: 국토면적 테이블 관련 스타일 */
+.first {
+    color: blue;
+    font-size: 24px;
+}
+
+#second {
+    color: red;
+    font-size: 24px;
+}
+
+/* 반점은 그룹 선택자 */
+p, span {
+    color: green;
+    font-size: 24;
+}
+
+div>p {
+    color: blue;
+    font-size: 30px;
+}
+/*  주석은 다음 모양과 같다. */
